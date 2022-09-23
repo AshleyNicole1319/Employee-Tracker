@@ -2,7 +2,7 @@ INSERT INTO departments (department_name)
 VALUES 
 ('Legal'),
 ('Finance'),
-('Information Technology'),
+('Technology'),
 ('Retail');
 
 INSERT INTO roles (job_title, salary, department_id)
@@ -10,9 +10,9 @@ VALUES
 ('Lawyer', 120000, 1),
 ('Accountant', 80000, 2),
 ('Developer', 100000, 3),
-('Sale', 50000, 4);
+('Sales', 50000, 4);
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
 ('Nikola', 'Tesla', 4, NULL),
 ('Galileo', 'Galilei', 4, 1),
