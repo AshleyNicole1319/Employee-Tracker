@@ -11,7 +11,7 @@
 * [Usage](#usage)
 * [Installation](#installation)
 * [Technology](#technoloy)
-* [Contributing](#contributing)
+* [Demo](#demo)
 * [License](#license)
 * [Contact](#contact)
 

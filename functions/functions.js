@@ -232,6 +232,28 @@ const db = require('../db/connection');
         })
     }
     
+    //Delete employee function
+    function deleteEmployee () {
+    return inquirer.prompt([
+        {
+            type: 'input',
+            name: 'id',
+            message:'Please enter the employee id:'
+        }
+        ])
+        .then(function(res){
+            const sql = `DELETE FROM employee WHERE id = ?`;
+            const params =[res.id];
+            db.query(sql, params, (err, result) => {
+            if(err) {
+                console.log(err);
+            }
+            console.log(`Employee with ${res.id} has been deleted from database.`);
+            viewPrompt();
+            })
+        })
+    };
+
     //Exit
     function exit() {
         console.log('----- Goodbye -----')
