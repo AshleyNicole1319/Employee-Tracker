@@ -10,13 +10,13 @@ VALUES
 ('Writer', 115000, 1),
 ('Influencer', 40000, 2),
 ('Painter', 75000, 3),
-('Scientist', 60000, 4);
+('Scientist', 60000, 4),
 ('Writer Lead', 120000, 1),
 ('Influencer Lead', 80000, 2),
 ('Painter Lead', 90000, 3),
-('Scientist Lead', 100000, 4),;
+('Scientist Lead', 100000, 4);
 
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
 ('Nikola', 'Tesla', 4, NULL),
 ('Galileo', 'Galilei', 4, 1),
