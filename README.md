@@ -32,7 +32,7 @@ Clone the repository from Github.
 
 
 # Demo
-![Note-Taker-Demo]()
+![Note-Taker-Demo](EmpTrack.webm)
 
 
 # License:
